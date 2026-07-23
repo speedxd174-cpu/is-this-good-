@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NEURO_NEXUS v4.0 - Next-Generation Cyberpunk Holographic Neural Processing Core. Sub-millisecond AI matrix computing.">
+  <title>NEURO_NEXUS v4.0 // Cyberpunk Neural Core</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <div class="grid-overlay"></div>
+  <div class="scanlines"></div>
+
+  <div id="toast-container" class="toast-container"></div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand">
+        <span style="color: var(--neon-cyan)">NEURO</span>_<span style="color: var(--neon-magenta)">NEXUS</span>
+        <span class="brand-badge">v4.0</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Overview</a></li>
+        <li><a href="#stats" class="nav-link">Telemetry</a></li>
+        <li><a href="#features" class="nav-link">Capabilities</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Access Terminal</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="cyber-btn cyber-btn-cyan">Deploy Node</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="pulse-dot"></span>
+            SYSTEM STATUS: ONLINE // SYSTEM READY
+          </div>
+          <h1 class="hero-title">
+            QUANTUM SYNAPSE CORE FOR <span class="text-gradient-cyan glow-text">NEXT-GEN AI</span>
+          </h1>
+          <p class="hero-description">
+            NEURO_NEXUS v4.0 breaks traditional computing bottlenecks with sub-millisecond holographic neural routing, dynamic multi-node synchronization, and hyper-parallel processing matrices.
+          </p>
+          <div class="hero-ctas">
+            <a href="#contact" class="cyber-btn cyber-btn-magenta">Request Early Access</a>
+            <a href="#features" class="cyber-btn cyber-btn-cyan">Explore Capabilities</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <div class="hero-img-wrapper">
+              <img src="hero-visual.jpg" alt="NEURO_NEXUS Cyberpunk HUD Interface">
+            </div>
+            <div class="hud-overlay-tag">
+              <span style="color: var(--neon-magenta); font-weight: bold;">[HUD]</span>
+              <span>SYNAPSE ENGINE :: LIVE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats" class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="99.98" data-prefix="" data-suffix="%">0%</div>
+          <div class="stat-label">Neural Accuracy</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="14.8" data-prefix="" data-suffix="M/s">0M/s</div>
+          <div class="stat-label">Ops Throughput</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="0.42" data-prefix="" data-suffix="ms">0ms</div>
+          <div class="stat-label">Quantum Latency</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="250" data-prefix="" data-suffix="K+">0K+</div>
+          <div class="stat-label">Active Matrix Nodes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="subhead">SYSTEM CAPABILITIES</div>
+        <h2 class="section-title text-gradient-cyan">ENGINEERED FOR SUPREMACY</h2>
+      </div>
+
+      <div class="features-tabs-wrapper">
+        <!-- Tab Navigation Side -->
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="tab-matrix">
+            <span>01. Holographic Matrix</span>
+            <span class="tab-icon">⚡</span>
+          </button>
+          <button class="tab-btn" data-tab="tab-sync">
+            <span>02. Zero-Latency Sync</span>
+            <span class="tab-icon">🌐</span>
+          </button>
+          <button class="tab-btn" data-tab="tab-mesh">
+            <span>03. Autonomous Mesh</span>
+            <span class="tab-icon">🧠</span>
+          </button>
+          <button class="tab-btn" data-tab="tab-security">
+            <span>04. Quantum Encryption</span>
+            <span class="tab-icon">🔒</span>
+          </button>
+        </div>
+
+        <div class="tab-panels">
+          <!-- Panel 1 -->
+          <div id="tab-matrix" class="tab-content-panel active">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <h3>HOLOGRAPHIC MATRIX COMPUTING</h3>
+                <p>
+                  Utilizing multi-dimensional photonics tensors, NEURO_NEXUS processes complex neural weight calculations simultaneously in zero-resistance holographic space.
+                </p>
+                <ul class="panel-specs">
+                  <li><span>▶</span> 4,096-bit photonic tensor processing</li>
+                  <li><span>▶</span> Dynamic memory allocation at 100 TB/s</li>
+                  <li><span>▶</span> Auto-scaling neural heat mitigation</li>
+                </ul>
+              </div>
+              <div class="panel-media">
+                <img src="feature-visual.jpg" alt="Holographic Matrix Core">
+              </div>
+            </div>
+          </div>
+
+          <div id="tab-sync" class="tab-content-panel">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <h3>SUB-MILLISECOND GLOBAL SYNC</h3>
+                <p>
+                  Deploy seamless state synchronization across global clusters with quantum entangled telemetry channels, guaranteeing zero race conditions.
+                </p>
+                <ul class="panel-specs">
+                  <li><span>▶</span> Quantum entanglement state sync</li>
+                  <li><span>▶</span> Sub-0.5ms edge response times</li>
+                  <li><span>▶</span> Fault-tolerant Byzantine consensus</li>
+                </ul>
+              </div>
+              <div class="panel-media">
+                <img src="feature-visual.jpg" alt="Zero-Latency Sync Matrix">
+              </div>
+            </div>
+          </div>
+
+          <div id="tab-mesh" class="tab-content-panel">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <h3>AUTONOMOUS NEURAL MESH</h3>
+                <p>
+                  Self-healing AI node topology automatically rewires around high-latency network sectors while optimizing payload routing paths in real-time.
+                </p>
+                <ul class="panel-specs">
+                  <li><span>▶</span> Dynamic graph optimization</li>
+                  <li><span>▶</span> Self-repairing node handshakes</li>
+                  <li><span>▶</span> Predictive load distribution</li>
+                </ul>
+              </div>
+              <div class="panel-media">
+                <img src="feature-visual.jpg" alt="Autonomous Mesh Core">
+              </div>
+            </div>
+          </div>
+
+          <div id="tab-security" class="tab-content-panel">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <h3>QUANTUM-RESISTANT ENCRYPTION</h3>
+                <p>
+                  Protect your proprietary neural weights and sensitive data streams with post-quantum lattice cryptography and zero-knowledge data verification.
+                </p>
+                <ul class="panel-specs">
+                  <li><span>▶</span> Kyber-1024 lattice encryption</li>
+                  <li><span>▶</span> Zero-knowledge execution proofs</li>
+                  <li><span>▶</span> Hardware-isolated secure enclaves</li>
+                </ul>
+              </div>
+              <div class="panel-media">
+                <img src="feature-visual.jpg" alt="Quantum Security Matrix">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Testimonials Carousel Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="subhead">TELEMETRY & FEEDBACK</div>
+        <h2 class="section-title text-gradient-magenta">VERIFIED NODE OPERATORS</h2>
+      </div>
+
+      <div class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+          <!-- Slide 1 -->
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-text">
+              "NEURO_NEXUS reduced our neural network training latency from days to seconds. The sub-millisecond sync capability is unmatched in the industry and has redefined our AI deployment pipeline."
+            </p>
+            <div class="reviewer-profile">
+              <div class="reviewer-avatar">VK</div>
+              <div class="reviewer-info">
+                <h4>Dr. V. Kross</h4>
+                <p>Lead Cybernetics Architect // Arasaka Core Labs</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-text">
+              "Implementing the autonomous neural mesh transformed our threat matrix detection. Real-time quantum encryption gives us complete security confidence while handling millions of concurrent requests."
+            </p>
+            <div class="reviewer-profile">
+              <div class="reviewer-avatar">SJ</div>
+              <div class="reviewer-info">
+                <h4>Sarah Jenkins</h4>
+                <p>VP of AI Security // NetRunner Dynamics</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-text">
+              "The holographic processing throughput exceeded all our benchmark targets. NEURO_NEXUS is unequivocally the gold standard for enterprise high-performance neural computing."
+            </p>
+            <div class="reviewer-profile">
+              <div class="reviewer-avatar">MV</div>
+              <div class="reviewer-info">
+                <h4>Marcus Vance</h4>
+                <p>Principal Quantum Engineer // SynthCorp Systems</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prev-btn">◀</button>
+          <div class="carousel-dots" id="carousel-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+          </div>
+          <button class="carousel-btn" id="next-btn">▶</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="subhead">INITIALIZE CONNECTION</div>
+        <h2 class="section-title text-gradient-cyan">REQUEST EARLY NODE ACCESS</h2>
+      </div>
+
+      <div class="terminal-card">
+        <div class="terminal-header">
+          <div class="terminal-title">&gt; SYSTEM_TERMINAL // USER_ACCESS_REQUEST</div>
+          <div class="terminal-dots">
+            <span class="term-dot red"></span>
+            <span class="term-dot yellow"></span>
+            <span class="term-dot green"></span>
+          </div>
+        </div>
+        <div class="terminal-body">
+          <form id="access-form" class="cyber-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="user-name">OPERATOR NAME <span>*</span></label>
+              <input type="text" id="user-name" name="name" class="cyber-input" placeholder="e.g. Alex Mercer" required>
+              <span class="form-error-msg" id="name-error">Operator name is required</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="user-email">COMMUNICATION EMAIL <span>*</span></label>
+              <input type="email" id="user-email" name="email" class="cyber-input" placeholder="operator@cybernet.io" required>
+              <span class="form-error-msg" id="email-error">Valid communication email is required</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="license-tier">NODE LICENSE TIER <span>*</span></label>
+              <select id="license-tier" name="tier" class="cyber-select" required>
+                <option value="" disabled selected>Select Tier Level...</option>
+                <option value="developer">Developer Node (Free Sandbox)</option>
+                <option value="enterprise">Enterprise Matrix (Dedicated Cluster)</option>
+                <option value="quantum">Quantum Core (Custom Infrastructure)</option>
+              </select>
+              <span class="form-error-msg" id="tier-error">Please select a license tier</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="organization">ORGANIZATION / MATRIX TAG</label>
+              <input type="text" id="organization" name="org" class="cyber-input" placeholder="e.g. NeuroCorp Inc.">
+            </div>
+
+            <div class="form-group form-group-full">
+              <label class="form-label" for="use-case">PROJECT DESCRIPTION / USE CASE <span>*</span></label>
+              <textarea id="use-case" name="message" class="cyber-textarea" placeholder="Detail your neural computing requirements..." required></textarea>
+              <span class="form-error-msg" id="message-error">Project description is required</span>
+            </div>
+
+            <div class="form-group form-group-full" style="margin-top: 1rem;">
+              <button type="submit" class="cyber-btn cyber-btn-magenta" style="width: 100%; padding: 1.1rem;">
+                ⚡ INITIALIZE TRANSMISSION
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          NEURO_NEXUS v4.0
+        </div>
+        <ul class="footer-links">
+          <li><a href="#hero">Overview</a></li>
+          <li><a href="#features">Capabilities</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Access Terminal</a></li>
+        </ul>
+        <div class="system-status">
+          <span class="pulse-dot"></span>
+          <span>ALL SYSTEMS OPERATIONAL // NODE ONLINE</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;600;800;900&family=Rajdhani:wght@500;600;700&display=swap');
+
+:root {
+  --bg-dark: #07080e;
+  --bg-card: rgba(13, 17, 28, 0.75);
+  --bg-card-hover: rgba(19, 25, 43, 0.85);
+  --bg-card-solid: #0d111c;
+  
+  --neon-cyan: #00f3ff;
+  --neon-magenta: #ff0055;
+  --neon-purple: #9d4edd;
+  --neon-yellow: #ffe600;
+  
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  
+  --border-cyan: rgba(0, 243, 255, 0.3);
+  --border-magenta: rgba(255, 0, 85, 0.3);
+  --border-purple: rgba(157, 78, 221, 0.3);
+  
+  --glow-cyan: 0 0 25px rgba(0, 243, 255, 0.4);
+  --glow-magenta: 0 0 25px rgba(255, 0, 85, 0.4);
+  
+  --font-heading: 'Orbitron', sans-serif;
+  --font-sub: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  --clip-corner: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  --clip-corner-sm: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.grid-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 243, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 243, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.subhead {
+  font-family: var(--font-sub);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--neon-cyan);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.subhead::before {
+  content: '//';
+  color: var(--neon-magenta);
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #ffffff 0%, var(--neon-cyan) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-magenta {
+  background: linear-gradient(135deg, var(--neon-cyan) 0%, var(--neon-magenta) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-text {
+  text-shadow: 0 0 12px rgba(0, 243, 255, 0.6);
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1.2rem 0;
+  transition: all 0.3s ease;
+  background: rgba(7, 8, 14, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 243, 255, 0.15);
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.nav-brand .brand-badge {
+  background: rgba(0, 243, 255, 0.15);
+  color: var(--neon-cyan);
+  border: 1px solid var(--neon-cyan);
+  font-size: 0.65rem;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  font-family: var(--font-sub);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-family: var(--font-sub);
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px rgba(0, 243, 255, 0.5);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--neon-cyan);
+  box-shadow: 0 0 8px var(--neon-cyan);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.cyber-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.6rem;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-main);
+  clip-path: var(--clip-corner-sm);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cyber-btn-cyan {
+  background: rgba(0, 243, 255, 0.12);
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  box-shadow: inset 0 0 10px rgba(0, 243, 255, 0.15);
+}
+
+.cyber-btn-cyan:hover {
+  background: var(--neon-cyan);
+  color: var(--bg-dark);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
+
+.cyber-btn-magenta {
+  background: rgba(255, 0, 85, 0.12);
+  border: 1px solid var(--neon-magenta);
+  color: var(--neon-magenta);
+  box-shadow: inset 0 0 10px rgba(255, 0, 85, 0.15);
+}
+
+.cyber-btn-magenta:hover {
+  background: var(--neon-magenta);
+  color: #fff;
+  box-shadow: var(--glow-magenta);
+  transform: translateY(-2px);
+}
+
+.hero-section {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 1rem;
+  background: rgba(0, 243, 255, 0.08);
+  border: 1px solid var(--border-cyan);
+  clip-path: var(--clip-corner-sm);
+  width: fit-content;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-sub);
+  font-size: 0.9rem;
+  color: var(--neon-cyan);
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--neon-cyan);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--neon-cyan);
+  animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 243, 255, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(0, 243, 255, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 243, 255, 0); }
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 2.2rem;
+  max-width: 580px;
+}
+
+.hero-ctas {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.hero-visual-card {
+  position: relative;
+  border-radius: 4px;
+  padding: 8px;
+  background: rgba(13, 17, 28, 0.8);
+  border: 1px solid var(--border-cyan);
+  box-shadow: 0 0 35px rgba(0, 243, 255, 0.15);
+  clip-path: var(--clip-corner);
+}
+
+.hero-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  clip-path: var(--clip-corner);
+}
+
+.hero-img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.hero-visual-card:hover img {
+  transform: scale(1.03);
+}
+
+.hud-overlay-tag {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(7, 8, 14, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--neon-cyan);
+  padding: 0.6rem 1rem;
+  clip-path: var(--clip-corner-sm);
+  font-family: var(--font-sub);
+  font-size: 0.85rem;
+  color: var(--neon-cyan);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.stats-section {
+  padding: 4rem 0;
+  border-top: 1px solid rgba(0, 243, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 243, 255, 0.1);
+  background: rgba(13, 17, 28, 0.4);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-cyan);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  clip-path: var(--clip-corner-sm);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--neon-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-4px);
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: var(--neon-cyan);
+  box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.stat-number {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--neon-cyan);
+  margin-bottom: 0.25rem;
+}
+
+.stat-label {
+  font-family: var(--font-sub);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.features-section {
+  padding: 6rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 0.4rem;
+}
+
+.features-tabs-wrapper {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.tab-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tab-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-cyan);
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  clip-path: var(--clip-corner-sm);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--text-muted);
+  font-family: var(--font-sub);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tab-btn:hover {
+  color: var(--text-main);
+  background: var(--bg-card-hover);
+  border-color: rgba(0, 243, 255, 0.6);
+}
+
+.tab-btn.active {
+  background: rgba(0, 243, 255, 0.12);
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+  box-shadow: var(--glow-cyan);
+}
+
+.tab-btn .tab-icon {
+  font-size: 1.3rem;
+}
+
+.tab-content-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-cyan);
+  padding: 2.5rem;
+  clip-path: var(--clip-corner);
+  display: none;
+  min-height: 380px;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.tab-content-panel.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.panel-info h3 {
+  font-size: 1.8rem;
+  color: var(--neon-cyan);
+  margin-bottom: 1rem;
+}
+
+.panel-info p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+.panel-specs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.panel-specs li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-sub);
+  font-size: 1.05rem;
+  color: var(--text-main);
+}
+
+.panel-specs li span {
+  color: var(--neon-magenta);
+  font-weight: bold;
+}
+
+.panel-media img {
+  width: 100%;
+  height: auto;
+  clip-path: var(--clip-corner-sm);
+  border: 1px solid var(--border-magenta);
+}
+
+.testimonials-section {
+  padding: 6rem 0;
+  background: rgba(13, 17, 28, 0.4);
+  border-top: 1px solid rgba(0, 243, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 243, 255, 0.1);
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1rem 0 3rem 0;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.testimonial-card {
+  min-width: 100%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-cyan);
+  padding: 3rem;
+  clip-path: var(--clip-corner);
+  position: relative;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.quote-icon {
+  font-size: 3rem;
+  color: rgba(0, 243, 255, 0.2);
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-family: serif;
+}
+
+.testimonial-text {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--text-main);
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.reviewer-profile {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.reviewer-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid var(--neon-cyan);
+  box-shadow: 0 0 12px var(--neon-cyan);
+  background: var(--bg-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: bold;
+  color: var(--neon-cyan);
+}
+
+.reviewer-info h4 {
+  font-size: 1.1rem;
+  color: var(--text-main);
+}
+
+.reviewer-info p {
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  color: var(--neon-cyan);
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.carousel-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  width: 44px;
+  height: 44px;
+  clip-path: var(--clip-corner-sm);
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background: var(--neon-cyan);
+  color: var(--bg-dark);
+  box-shadow: var(--glow-cyan);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(0, 243, 255, 0.2);
+  border: 1px solid var(--neon-cyan);
+  clip-path: var(--clip-corner-sm);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: var(--neon-cyan);
+  box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* Contact / Terminal Access Form */
+.contact-section {
+  padding: 6rem 0;
+}
+
+.terminal-card {
+  max-width: 820px;
+  margin: 0 auto;
+  background: #080b12;
+  border: 1px solid var(--border-cyan);
+  clip-path: var(--clip-corner);
+  box-shadow: 0 0 40px rgba(0, 243, 255, 0.15);
+}
+
+.terminal-header {
+  background: #0d121f;
+  padding: 0.8rem 1.5rem;
+  border-bottom: 1px solid var(--border-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.terminal-title {
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  color: var(--neon-cyan);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.terminal-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.term-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.term-dot.red { background: #ff5f56; }
+.term-dot.yellow { background: #ffbd2e; }
+.term-dot.green { background: #27c93f; }
+
+.terminal-body {
+  padding: 2.5rem;
+}
+
+.cyber-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.form-group-full {
+  grid-column: 1 / -1;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+.form-label span {
+  color: var(--neon-magenta);
+}
+
+.cyber-input, .cyber-select, .cyber-textarea {
+  background: rgba(13, 17, 28, 0.9);
+  border: 1px solid rgba(0, 243, 255, 0.25);
+  color: var(--neon-cyan);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 0.85rem 1.1rem;
+  clip-path: var(--clip-corner-sm);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.cyber-input:focus, .cyber-select:focus, .cyber-textarea:focus {
+  border-color: var(--neon-cyan);
+  box-shadow: var(--glow-cyan);
+  background: rgba(19, 25, 43, 0.95);
+}
+
+.cyber-input::placeholder, .cyber-textarea::placeholder {
+  color: #475569;
+}
+
+.cyber-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-error-msg {
+  color: var(--neon-magenta);
+  font-size: 0.8rem;
+  font-family: var(--font-sub);
+  display: none;
+  margin-top: 0.2rem;
+}
+
+.form-error-msg.visible {
+  display: block;
+}
+
+
+.toast-container {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  background: var(--bg-card-solid);
+  border: 1px solid var(--neon-cyan);
+  color: var(--text-main);
+  padding: 1rem 1.5rem;
+  clip-path: var(--clip-corner-sm);
+  box-shadow: var(--glow-cyan);
+  font-family: var(--font-sub);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  animation: slideInRight 0.3s ease forwards;
+}
+
+.toast.success {
+  border-color: var(--neon-cyan);
+}
+
+.toast.error {
+  border-color: var(--neon-magenta);
+  box-shadow: var(--glow-magenta);
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+
+.footer {
+  border-top: 1px solid rgba(0, 243, 255, 0.15);
+  background: rgba(5, 6, 10, 0.9);
+  padding: 3rem 0;
+  font-family: var(--font-sub);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-brand {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--neon-cyan);
+}
+
+.system-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 992px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-content {
+    align-items: center;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-tabs-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .cyber-form {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-card {
+    padding: 2rem 1.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+}
